@@ -22,8 +22,16 @@ https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git
 ```
 
 # Getting Started
+# Choose interested interface
 
-## Create class
+| IInitialize 	| IPostInitialize 	|
+|-------------	|-----------------	|
+| IStart      	| IPostStart      	|
+| IFixedTick  	| IPostFixedTick  	|
+| ITick       	| IPostTick       	|
+| ILateTick   	| IPostLateTick   	|
+
+## Create class and add interested interface
 ```c#
 public class MyTicker : ITick
 {
