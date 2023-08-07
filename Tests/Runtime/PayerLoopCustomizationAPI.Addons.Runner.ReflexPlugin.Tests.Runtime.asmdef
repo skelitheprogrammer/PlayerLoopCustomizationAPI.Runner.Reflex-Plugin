@@ -1,0 +1,23 @@
+{
+    "name": "PayerLoopCustomizationAPI.Addons.Runner.ReflexPlugin.Tests.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1530a967b84cfb44dbdd5e8a1989764f",
+        "GUID:e07902ee075be4e4c80f3687a75a2739",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:5c46fd0339c0b9a4090b54ee8920a844"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

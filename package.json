@@ -1,0 +1,34 @@
+{
+  "name": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
+  "displayName": "PlayerLoopAPI Runner Reflex plugin",
+  "version": "0.0.1",
+  "description": "PlayerLoop customization API Runner Reflex Plugin",
+  "keywords": [
+    "unity",
+    "unity3d",
+    "playerloop",
+    "playerloopapi",
+    "plugin",
+    "reflex",
+    "runner",
+    "customization",
+    "api"
+  ],
+  "author": {
+    "name": "Dosyn Kirill",
+    "email": "dosynkirill@gmail.com",
+    "url": "https://github.com/skelitheprogrammer"
+  },
+  "dependencies": {
+    "com.skillitronic.playerloopcustomizationapi": "0.1.1",
+    "com.skillitronic.playerloopcustomizationapi.addons.runner": "0.0.1",
+    "com.gustavopsantos.reflex": "4.4.0"
+  },
+  "enableLockFile": true,
+  "resolutionStrategy": "highest",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+
+}

@@ -1,0 +1,18 @@
+{
+    "name": "PayerLoopCustomizationAPI.Addons.Runner.ReflexPlugin",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5c46fd0339c0b9a4090b54ee8920a844",
+        "GUID:24d01c32b07a42f4da0ea1c0faeeec59",
+        "GUID:1530a967b84cfb44dbdd5e8a1989764f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
