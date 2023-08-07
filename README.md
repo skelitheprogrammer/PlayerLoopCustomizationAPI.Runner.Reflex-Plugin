@@ -13,12 +13,12 @@ Plugin for <a href="https://github.com/gustavopsantos/Reflex#blazing-fast-minima
 ### Add via package manager
 
 ```
-
+https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git
 ```
 
 ### Add dependency in manifest.json
 ```
-
+"com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin": "https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git"
 ```
 
 # Getting Started
