@@ -20,8 +20,8 @@
     "url": "https://github.com/skelitheprogrammer"
   },
   "dependencies": {
-    "com.skillitronic.playerloopcustomizationapi": "https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git",
-    "com.skillitronic.playerloopcustomizationapi.addons.runner": "https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon.git",
+    "com.skillitronic.playerloopcustomizationapi": "https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git#0.1.1",
+    "com.skillitronic.playerloopcustomizationapi.addons.runner": "https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon.git#0.0.2",
     "com.gustavopsantos.reflex": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#4.4.1"
   },
   "enableLockFile": true,
