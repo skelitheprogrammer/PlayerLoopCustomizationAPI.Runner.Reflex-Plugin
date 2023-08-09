@@ -10,15 +10,17 @@ Plugin for <a href="https://github.com/gustavopsantos/Reflex#blazing-fast-minima
 
 # Installation
 
-### Add via package manager
+### Add [Reflex](https://github.com/gustavopsantos/Reflex#-installation) to the project
 
+### Add dependencie in manifest.json
 ```
-https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git
-```
-
-### Add dependency in manifest.json
-```
+"com.skillitronic.playerloopcustomizationapi": "https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git",
+"com.skillitronic.playerloopcustomizationapi.addons.runner": "https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon.git",
 "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin": "https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git"
+```
+### Add [Define symbol](https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon#ready-solution)
+```
+PLAYERLOOPAPI_RUNNER_IMPLEMENTATION
 ```
 
 # Getting Started
