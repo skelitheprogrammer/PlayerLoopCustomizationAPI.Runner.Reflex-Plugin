@@ -11,11 +11,22 @@ Plugin for <a href="https://github.com/gustavopsantos/Reflex#blazing-fast-minima
 # Installation
 
 ### Add [Reflex](https://github.com/gustavopsantos/Reflex#-installation) to the project
-
-### Add dependencie in manifest.json
+### Add scoped registry to manifest.json
 ```
-"com.skillitronic.playerloopcustomizationapi": "https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git",
-"com.skillitronic.playerloopcustomizationapi.addons.runner": "https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon.git",
+"scopedRegistries": [
+{
+  "name": "package.openupm.com",
+  "url": "https://package.openupm.com",
+  "scopes": [
+    "com.skillitronic.playerloopcustomizationapi",
+    "com.skillitronic.playerloopcustomizationapi.addons.runner",
+  ]
+}
+],
+```
+
+### Add dependency in manifest.json
+```
 "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin": "https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git"
 ```
 ### Add [Define symbol](https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon#ready-solution)
@@ -24,7 +35,7 @@ PLAYERLOOPAPI_RUNNER_IMPLEMENTATION
 ```
 
 # Getting Started
-# Choose interested interface
+## Choose interested interface
 
 | IInitialize 	| IPostInitialize 	|
 |-------------	|-----------------	|
