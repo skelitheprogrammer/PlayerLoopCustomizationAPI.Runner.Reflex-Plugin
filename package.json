@@ -1,7 +1,7 @@
 {
   "name": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
   "displayName": "PlayerLoopAPI Runner Reflex plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PlayerLoop customization API Runner Reflex Plugin",
   "keywords": [
     "unity",
@@ -20,9 +20,8 @@
     "url": "https://github.com/skelitheprogrammer"
   },
   "dependencies": {
-    "com.skillitronic.playerloopcustomizationapi": "0.1.1",
-    "com.skillitronic.playerloopcustomizationapi.addons.runner": "0.0.2",
-    "com.gustavopsantos.reflex": "4.4.1"
+    "com.skillitronic.playerloopcustomizationapi": "0.2.0",
+    "com.skillitronic.playerloopcustomizationapi.addons.runner": "0.1.0"
   },
   "enableLockFile": true,
   "resolutionStrategy": "highest",
