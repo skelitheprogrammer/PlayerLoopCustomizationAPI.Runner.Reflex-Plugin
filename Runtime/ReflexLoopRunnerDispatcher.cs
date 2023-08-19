@@ -6,7 +6,7 @@ using Reflex.Core;
 
 namespace PlayerLoopCustomizationAPI.Addons.Runner.ReflexPlugin
 {
-    public class ReflexLoopRunnerDispatcher : IDisposable, IStartable
+    public sealed class ReflexLoopRunnerDispatcher : IDisposable, IStartable
     {
         private readonly Container _container;
         private readonly CompositeDispatcherDisposable _disposable;
