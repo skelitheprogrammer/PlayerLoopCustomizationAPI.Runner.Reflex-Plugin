@@ -27,7 +27,7 @@ Plugin for <a href="https://github.com/gustavopsantos/Reflex#blazing-fast-minima
 
 ### Add dependency in manifest.json
 ```
-"com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin": "https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git"
+"com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin": "https://github.com/skelitheprogrammer/PlayerLoopCustomizationAPI.Runner.Reflex-Plugin.git"
 ```
 ### Add [Define symbol](https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon#ready-solution)
 ```
